@@ -6,4 +6,6 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-       - run: echo "Hello Rahul jha"
+       - run: | 
+            echo "Hello Rahul jha"
+            echo  "Hellow World"

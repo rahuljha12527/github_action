@@ -14,7 +14,9 @@ jobs:
       with:
         python-version: "3.10"
     - name: Run Python script
-      run: python hello.py
+      run: python factorial.py
+    - name: Test with pytest
+      run: pytest test.py
   test:
      runs-on: ubuntu-latest
      steps:

@@ -1,8 +1,8 @@
-name: docker worlflow
+name: Docker worlflow
 
 on: [push]
 jobs:
-  docker run:
+  docker:
     runs-on: ubuntu-latest
     steps:
        - run: docker run hello-world

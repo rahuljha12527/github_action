@@ -1,1 +1,9 @@
+name: docker worlflow
 
+on: [push]
+jobs:
+  docker run:
+    runs-on: ubuntu-latest
+    steps:
+       - run: docker run hello-world
+            
